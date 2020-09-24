@@ -1,0 +1,191 @@
+{
+  "id": "2079576",
+  "name": "daily-coupons",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5732293",
+      "name": "分类",
+      "font_class": "sort",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "647460",
+      "name": "图片",
+      "font_class": "tupian",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "809208",
+      "name": "价格",
+      "font_class": "jiage1",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "4948964",
+      "name": "商品",
+      "font_class": "shangpin1",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "7055654",
+      "name": "介绍",
+      "font_class": "jieshao",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "12975019",
+      "name": "优惠券",
+      "font_class": "youhuiquan1",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "354262",
+      "name": "淘宝",
+      "font_class": "iconfonttaobao",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "436070",
+      "name": "包邮",
+      "font_class": "4",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "446610",
+      "name": "销量",
+      "font_class": "xiaoliang",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "688115",
+      "name": "天猫 T",
+      "font_class": "tianmaot",
+      "unicode": "e799",
+      "unicode_decimal": 59289
+    },
+    {
+      "icon_id": "783875",
+      "name": "团购",
+      "font_class": "tuangou",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "3023659",
+      "name": "文案标题",
+      "font_class": "wenanbiaoti",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "4152719",
+      "name": "京东_1",
+      "font_class": "jingdong_",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "9810108",
+      "name": "分享",
+      "font_class": "fenxiang_2",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "13625008",
+      "name": "饿了吗",
+      "font_class": "elema",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "13625314",
+      "name": "拼多多",
+      "font_class": "pinduoduo",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "15223951",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "15989500",
+      "name": "图集",
+      "font_class": "tuji",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "14626418",
+      "name": "警告",
+      "font_class": "jinggao",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "6306126",
+      "name": "批量设定原价",
+      "font_class": "piliangshedingyuanjia",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "11092057",
+      "name": "天猫-01",
+      "font_class": "tianmao-",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "15463125",
+      "name": "淘宝,TAO,alibaba,1688",
+      "font_class": "taobao",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "1177749",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "13882854",
+      "name": "sousuo",
+      "font_class": "tubiao_huaban",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "14435324",
+      "name": "首页",
+      "font_class": "shouye1",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "305931",
+      "name": "9.9",
+      "font_class": "99",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    }
+  ]
+}
