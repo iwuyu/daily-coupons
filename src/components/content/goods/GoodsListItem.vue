@@ -1,14 +1,14 @@
 <!-- GoodsListItem -->
 <template>
   <div class="goods-item" @click="itemClick">
-    <img class="goods-item-img" :src="goodsItem.img" @load="imageLoad">
+    <img class="goods-item-img" :src="goodsItem.image" @load="imageLoad">
     <div class="coupon-box">
-      <p><span>优惠券</span> ￥{{goodsItem.coupon}}</p>
+      <p><span>优惠券</span>{{goodsItem.discount}} 元</p>
       <p>去领券></p>
     </div>
     <div class="goods-info">
-      <p>{{goodsItem.title}}</p>
-      <span class="collect"><i class="iconfont icon-piliangshedingyuanjia">原价</i>￥{{goodsItem.orgPrice}}</span>
+      <p>{{goodsItem.name}}</p>
+      <span class="collect"><i class="iconfont icon-piliangshedingyuanjia">原价</i>￥{{goodsItem.original_price}}</span>
       <span class="price">券后￥{{goodsItem.price}}</span>
     </div>
   </div>
@@ -59,14 +59,19 @@ export default {
   }
 
   .goods-item .coupon-box {
-    height: 3rem;
-    line-height: 1.5rem;
+    /* height: 3rem; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 3.5rem;
+    font-size: .9rem;
+    line-height: 1.2rem;
     border-radius: 0 0 5px 5px;
-    position: relative;
-    margin-top: -3rem;
+    /* position: relative; */
+    /* margin-top: -3rem; */
     text-align: center;
-    opacity: .8;
-    background-color:fuchsia;
+    opacity: .9;
+    background-color:#ff00aa;
     color: #fff;
   }
 
@@ -79,7 +84,7 @@ export default {
     color: fuchsia;
   }
   .goods-info {
-    font-size: 12px;
+    font-size: 10px;
     position: absolute;
     bottom: 5px;
     left: 0;
@@ -96,7 +101,7 @@ export default {
   }
 
   .goods-info span{
-    padding: 0 .3rem;
+    padding: 0 .2rem;
   }
 
   .goods-info .price {

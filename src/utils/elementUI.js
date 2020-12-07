@@ -27,6 +27,10 @@ import {
   Radio,
   Dialog,
   Message,
+  Table,
+  TableColumn,
+  Autocomplete,
+  Pagination
 } from 'element-ui';
 
 Vue.use(Button);
@@ -54,6 +58,10 @@ Vue.use(Tooltip);
 Vue.use(Upload);
 Vue.use(Radio);
 Vue.use(Dialog);
+Vue.use(Table);
+Vue.use(TableColumn);
+Vue.use(Autocomplete);
+Vue.use(Pagination);
 Vue.prototype.$message = Message;
 //引入css文件
 import 'element-ui/lib/theme-chalk/index.css';

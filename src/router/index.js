@@ -43,6 +43,16 @@ const routes = [
         name: 'AddGoods',
         component: () => import('../components/admin/childComps/AddGoods.vue')
       },
+      {
+        path: '/admin/manageGoods',
+        name: 'ManageGoods',
+        component: () => import('../components/admin/childComps/ManageGoods.vue')
+      },
+      {
+        path: '/admin/manageCategory',
+        name: 'ManageCategory',
+        component: () => import('../components/admin/childComps/ManageCategory.vue')
+      },
     ]
   }
 ]

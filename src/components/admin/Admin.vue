@@ -20,7 +20,7 @@
         :collapse="isCollapse">
           <el-submenu opened="true" index="1">
             <template slot="title"><i class="el-icon-s-order"></i><span slot="title">商品管理</span></template>
-              <el-menu-item @click.native="$router.push('/admin/article/management')" index="1-1">商品管理</el-menu-item>
+              <el-menu-item @click.native="$router.push('/admin/manageGoods')" index="1-1">商品管理</el-menu-item>
               <el-menu-item @click.native="$router.push('/admin/addGoods')" index="1-2">添加商品</el-menu-item>
           </el-submenu>
           <el-submenu index="2">
@@ -29,7 +29,7 @@
           </el-submenu>
           <el-submenu index="3">
             <template slot="title"><i class="el-icon-discount"></i><span slot="title">商品分类</span></template>
-              <el-menu-item @click.native="$router.push('/admin/article/category')" index="3-1">商品分类</el-menu-item>
+              <el-menu-item @click.native="$router.push('/admin/manageCategory')" index="3-1">商品分类</el-menu-item>
           </el-submenu>
           
           <el-submenu index="4">
